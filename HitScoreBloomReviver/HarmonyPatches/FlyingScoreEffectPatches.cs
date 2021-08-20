@@ -26,6 +26,7 @@ namespace HitScoreBloomReviver.HarmonyPatches
             customFontAsset.name = "Teko-Medium SDF Bloom";
 
             // Also can't use Mobile shaders since they lack the underlay that makes them glow.
+            // This results in a SubMesh applied to each FlyingScoreEffect object.
             customFontAsset.material.shader = Resources.FindObjectsOfTypeAll<Shader>().First(x => x.name.Contains(
                 "TextMeshPro/Distance Field"));
 
