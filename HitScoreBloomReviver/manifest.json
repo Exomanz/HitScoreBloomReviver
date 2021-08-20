@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "HitScoreBloomReviver",
+  "name": "HitScoreBloomReviver",
+  "author": "Exomanz",
+  "version": "0.0.2",
+  "description": "Brings back the old Bloom (aka glow) effect to hit scores!",
+  "gameVersion": "1.16.4",
+  "dependsOn": {
+    "BSIPA": "^4.2.0",
+    "BeatSaberMarkupLanguage": "^1.5.4",
+    "SiraUtil": "^2.5.7"
+  }
+}

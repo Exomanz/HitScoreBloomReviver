@@ -1,0 +1,3 @@
+﻿<vertical vertical-fit="PreferredSize">
+	<checkbox text="Enable Bloom" value="Enabled" apply-on-change="True"/>
+</vertical>
